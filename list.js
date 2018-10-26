@@ -2,8 +2,8 @@ const AWS = require('aws-sdk');
 
 //configuring the AWS environment
 AWS.config.update({
-    accessKeyId: "AKIAIAFJ22EBOBPVI73A",
-    secretAccessKey: "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"
+    accessKeyId: "LAKEYID",
+    secretAccessKey: "LAACCESSKEY"
   });
 
 var s3 = new AWS.S3();
